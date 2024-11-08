@@ -1,3 +1,64 @@
 body {
     background-color: rgb(103, 103, 224);
+    display: flex;
+    justify-content: center;
 }
+
+.picFrame {
+    border: solid 0.5rem black;
+    height: 82vh;
+    width: 60vw;
+    margin-top: 3rem;
+}
+
+.imgSlider {
+    display: flex;
+    justify-content: center;
+    /* border: solid red 0.5rem; */
+}
+
+#imgContainer {
+    object-fit: contain;
+    height: 70vh;
+    width: 80vw;
+    padding-top: 2rem;
+}
+
+.navCircles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.circle {
+    height: 2.5rem;
+    /* background-color: white; */
+    border-radius: 50%; 
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.circle.active {
+    opacity: 1; 
+    background-color: white;
+}
+
+.arrow  {
+    height: 5vh;
+    width: 5vw;
+    border: white solid 0.5rem;
+}
+
+.arrowButton {
+    /* border: solid red 1rem; */
+    border: none;
+    height: 10vh;
+    margin: 2rem;
+    margin-top: 25rem;
+    background-color: rgb(103, 103, 224); 
+}
+
+.arrowButton:hover {
+    cursor: pointer;
+}
+

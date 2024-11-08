@@ -1,1 +1,4 @@
-export const previous = 'this is the previous module'; 
+// export default function prev() {
+//     currentIndex = (currentIndex - 1 + images.length) % images.length;
+//     updateCarousel();
+// } 
